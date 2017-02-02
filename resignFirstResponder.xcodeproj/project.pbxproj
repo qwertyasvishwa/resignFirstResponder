@@ -96,7 +96,7 @@
 				TargetAttributes = {
 					50EEF0F51DD4CEE300FD1BF6 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = 2KJYZV89RZ;
+						DevelopmentTeam = LR526826QZ;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -261,7 +261,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 2KJYZV89RZ;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = LR526826QZ;
 				INFOPLIST_FILE = resignFirstResponder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vishwaraj.resignFirstResponder;
@@ -274,7 +275,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 2KJYZV89RZ;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = LR526826QZ;
 				INFOPLIST_FILE = resignFirstResponder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vishwaraj.resignFirstResponder;
@@ -302,6 +304,7 @@
 				50EEF10A1DD4CEE300FD1BF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

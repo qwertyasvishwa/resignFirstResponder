@@ -14,7 +14,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-       
+       self.myTextField.delegate = self
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -23,6 +23,12 @@ class ViewController: UIViewController, UITextFieldDelegate {
         // Dispose of any resources that can be recreated.
     }
 
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        self.view.endEditing(true)
+        print("Hello")
+        return false
+    }
+    
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         self.view.endEditing(true)
     }
